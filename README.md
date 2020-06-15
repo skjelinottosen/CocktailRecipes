@@ -4,10 +4,10 @@ Cocktail Recipes is project to learn more about validation and filtering of user
 The project uses following techniques:
 
 php
-*Regular expression match
-*Prepared statements
-*Hashing 
-*Sessions
+* Regular expression match
+* Prepared statements
+* Hashing 
+* Sessions
 
 CSS
 * CSS Grid Layout
