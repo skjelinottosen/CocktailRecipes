@@ -14,13 +14,13 @@ CSS
 
 
 
-##Desktop
+## Desktop
 
 ![](Cocktail_Recipes/Application_Shots/sign_up_desktop.png)
 ![](Cocktail_Recipes/Application_Shots/login_desktop.png)
 ![](Cocktail_Recipes/Application_Shots/content_desktop.png)
 
-##Mobile
+## Mobile
 
 ![](Cocktail_Recipes/Application_Shots/sign_up_mobile.png)
 ![](Cocktail_Recipes/Application_Shots/login_mobile.png)
