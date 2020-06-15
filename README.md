@@ -22,7 +22,6 @@ CSS
 
 ## Mobile
 
-![](Cocktail_Recipes/Application_Shots/sign_up_mobile.png?v=4&s=100)
-![](Cocktail_Recipes/Application_Shots/login_mobile.png)
-![](Cocktail_Recipes/Application_Shots/content_mobile.png)
+![](Cocktail_Recipes/Application_Shots/mobile.png)
+
 
