@@ -22,7 +22,7 @@ CSS
 
 ## Mobile
 
-![](Cocktail_Recipes/Application_Shots/sign_up_mobile.png){:height="50%" width="50%"}
+![](Cocktail_Recipes/Application_Shots/sign_up_mobile.png?v=4&s=200)
 ![](Cocktail_Recipes/Application_Shots/login_mobile.png)
 ![](Cocktail_Recipes/Application_Shots/content_mobile.png)
 
