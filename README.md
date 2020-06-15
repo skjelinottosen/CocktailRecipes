@@ -2,4 +2,4 @@
 
 
 
-![](sign_up_desktop.png)
+![](Cocktail_Recipes/Application_Shots/sign_up_desktop.png)
