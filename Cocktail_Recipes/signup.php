@@ -92,51 +92,48 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 ?>
 <!DOCTYPE html>
 <html>
-
-<head>
-  <link rel="stylesheet" href="index.css">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-</head>
-
-<body>
-  <div id="mastergrid">
-    <nav class="nav">
-      <ul id="meny">
-        <?php
-        if ($loggedIn == False) {
-          echo
-            '<li class="right">
-                  <button type="button"class="button" onclick=location.href="login.php">Login</button>
-                  <button type="button" class="button" onclick=location.href="signup.php">Sign Up</button>
-                </li>';
-        } else {
-          echo '<button type="button" class="button"><a href="./logout.php">Logout</a></button>';
-        }
-        ?>
-      </ul>
-    </nav>
-    <main class="main">
-      <img class="icon" src="./images/Icon.png" alt="icon">
-      <section class="main outerBox">
-        <h2>Create Account</h2>
-        <h3>Cocktail Recipes</h3>
-        <section class="innerBox">
-          <h4>Age limit 18</h4>
-          <!-------Sign up form-------->
-          <form action="" method="post">
-            <label>Email</label>
-            <input class="a-input" type="email" name="email" Placeholder="Email" pattern='^([a-zA-Z0-9_\-\.]+)@([a-zA-Z0-9_\-\.]+)\.([a-zA-Z]{2,5})$' required />
-            <label>Date of birth</label>
-            <input class="a-input" type="date" name="dateOfBirth" required />
-            <abbr class="abbr" title="The password must be a minimum 10 characters including 1 uppercase and 1 number."> Password (info)</abbr>
-            <input class="a-input" type="password" name="password" Placeholder="Password" pattern='^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{10,}' required />
-            <input class="a-input" type="password" name="passwordRepeat" placeholder="Confirm password" pattern='^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{10,}' required />
-            <input class="a-btn" type="submit" value="Sign Up" />
-          </form>
+  <head>
+    <link rel="stylesheet" href="index.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body>
+    <div id="mastergrid">
+      <nav class="nav">
+        <ul id="meny">
+          <?php
+          if ($loggedIn == False) {
+            echo
+              '<li class="right">
+                    <button type="button"class="button" onclick=location.href="login.php">Login</button>
+                    <button type="button" class="button" onclick=location.href="signup.php">Sign Up</button>
+                  </li>';
+          } else {
+            echo '<button type="button" class="button"><a href="./logout.php">Logout</a></button>';
+          }
+          ?>
+        </ul>
+      </nav>
+      <main class="main">
+        <img class="icon" src="./images/Icon.png" alt="icon">
+        <section class="main outerBox">
+          <h2>Create Account</h2>
+          <h3>Cocktail Recipes</h3>
+          <section class="innerBox">
+            <h4>Age limit 18</h4>
+            <!-------Sign up form-------->
+            <form action="" method="post">
+              <label>Email</label>
+              <input class="a-input" type="email" name="email" Placeholder="Email" pattern='^([a-zA-Z0-9_\-\.]+)@([a-zA-Z0-9_\-\.]+)\.([a-zA-Z]{2,5})$' required />
+              <label>Date of birth</label>
+              <input class="a-input" type="date" name="dateOfBirth" required />
+              <abbr class="abbr" title="The password must be a minimum 10 characters including 1 uppercase and 1 number."> Password (info)</abbr>
+              <input class="a-input" type="password" name="password" Placeholder="Password" pattern='^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{10,}' required />
+              <input class="a-input" type="password" name="passwordRepeat" placeholder="Confirm password" pattern='^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{10,}' required />
+              <input class="a-btn" type="submit" value="Sign Up" />
+            </form>
+          </section>
         </section>
-      </section>
-    </main>
-  </div>
-</body>
-
+      </main>
+    </div>
+  </body>
 </html>
